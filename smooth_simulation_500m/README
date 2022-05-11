@@ -1,0 +1,15 @@
+This file contains the DATA folder for the simulations of the Gorkha Earthquake in SPECFEM3D with 500m resolution topography
+
+To run this model on an HPC, first create bin, DATABASES_MPI, and OUTPUT_FILES directories. Then, copy your specfem3d executables to the bin directory. The main modification that will be necessary is the number of processors, so you will need to have an understanding of the cluster you are using.
+
+Run with:
+
+mpirun -np 290 ./bin/xmeshfem3d
+
+mpirun -np 290 ./bin/xgenerate_databases
+
+mpirun -np 290 ./bin/xspecfem3d
+
+Check the output at each stage of the process!
+
+Use the scripts in the setup folder to generate the interfaces needed for meshing. To generate teh 2000m smoothed surface, you will need to modify the make_smoother_internal_mesher.py script.
