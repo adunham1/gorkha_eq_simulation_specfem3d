@@ -1,1 +1,5 @@
-This repository contains the set up for simulating the Mw 7.8 Gorkha Earthquake in 2015 in high resolution and smooth topography on an HPC cluster (used on the University of Arizona HPC)
+This repository contains the set up for simulating the Mw 7.8 Gorkha, Nepal Earthquake in 2015 in high resolution and smooth topography on an HPC cluster (used on the University of Arizona HPC)
+
+If you use this work, please cite:
+
+Dunham, A. M., Kiser, E., Kargel, J. S.,Haritashya, U. K., Watson, C. S., Shugar,D. H., et al. (2022). Topographic control on ground motions and landslides from the 2015 Gorkha earthquake. Geophysical Research Letters, 49, e2022GL098582. https://doi.org/10.1029/2022GL098582
